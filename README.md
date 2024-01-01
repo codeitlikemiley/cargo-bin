@@ -1,8 +1,12 @@
-# Cargo Bin - Crates CLI / Command Runner
+# Cargo Bin 
 
-A Quick ,and simple way to launch cargo crates cli / commands on Vscode
+> **VSCode Command Runner for any Cargo Crates CLI**
 
-![Logo](images/logo.png)
+- A Quick ,and simple way to launch cargo crates cli / commands on Vscode
+
+See Demo on youtube:
+
+[![Watch the video](https://img.youtube.com/vi/GSry26wY7Tc/0.jpg)](https://youtu.be/GSry26wY7Tc)
 
 ## Usage
 
@@ -10,7 +14,3 @@ A Quick ,and simple way to launch cargo crates cli / commands on Vscode
 1. Pick among the listed Cargo Commands e.g. `cargo-nextest`,press <kbd>ENTER</kbd>
 1. You will be shown `Commands` and `options` (prefix with --) , you can choose a command and press <kbd>ENTER</kbd> or immediately press <kbd>ENTER</kbd> to avoid choosing anything and do the manual overrides at the last step.
 1. Last Step, Add any arguments you want e.g. `--package example --bin example -- test::test_fn`
-
-## Demo
-
-https://github.com/codeitlikemiley/cargo-bin/assets/28816690/8451e82a-9ada-44c7-8647-60f33f4890bf
