@@ -3,6 +3,10 @@
   "displayName": "cargo-bin",
   "description": "Run Any Cargo Commands in Vscode Terminal",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeitlikemiley/cargo-bin"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
