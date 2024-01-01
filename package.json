@@ -28,7 +28,6 @@
       {
         "command": "cargo-bin.showCargoCommands",
         "key": "alt+f1",
-        "mac": "option+f1",
         "when": "editorTextFocus"
       }
     ]
