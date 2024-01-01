@@ -4,6 +4,7 @@
   "description": "Run Any Cargo Commands in Vscode Terminal",
   "version": "0.0.2",
   "publisher": "masterustacean",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/codeitlikemiley/cargo-bin"
