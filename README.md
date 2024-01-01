@@ -2,6 +2,8 @@
 
 A Quick ,and simple way to launch cargo crates cli / commands on Vscode
 
+![Logo](images/logo.png)
+
 ## Usage
 
 1. Press <kbd>CMD</kbd> +<kbd>SHIFT</kbd>+ <kbd>P</kbd> , select `Cargo Runner` , press <kbd>ENTER</kbd>
