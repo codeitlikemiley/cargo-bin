@@ -2,7 +2,7 @@
   "name": "cargo-bin",
   "displayName": "cargo-bin",
   "description": "Run Any Cargo Commands in Vscode Terminal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "masterustacean",
   "icon": "images/icon.png",
   "repository": {
@@ -22,6 +22,13 @@
       {
         "command": "cargo-bin.showCargoCommands",
         "title": "Cargo Runner"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "cargo-bin.showCargoCommands",
+        "key": "shift+space",
+        "when": "editorTextFocus"
       }
     ]
   },
