@@ -28,7 +28,8 @@
       {
         "command": "cargo-bin.showCargoCommands",
         "key": "alt+f1",
-        "when": "editorTextFocus"
+        "mac": "opt+f1",
+        "when": "extension.cargoBinEnabled"
       }
     ]
   },
