@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 export function activate(context: vscode.ExtensionContext) {
-    
+
     let disposable = vscode.commands.registerCommand('cargo-bin.showCargoCommands', async () => {
         const cargoCommands = await getCargoCommands();
         if (!cargoCommands) {
@@ -42,8 +42,6 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     context.subscriptions.push(disposable);
-    console.log('Extension "cargo-bin" is now active');
-    vscode.commands.executeCommand('setContext', 'cargo-bin.active', true);
 }
 
 function formatCargoCommand(command: string): string {
@@ -111,7 +109,4 @@ function parseOptions(helpText: string): Set<string> {
     return options;
 }
 
-export function deactivate() {
-    console.log('deactivating extension');
-    vscode.commands.executeCommand('setContext', 'cargo-bin.active', false);
-}
+export function deactivate() {}

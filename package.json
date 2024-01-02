@@ -28,8 +28,7 @@
       {
         "command": "cargo-bin.showCargoCommands",
         "key": "alt+f1",
-        "mac": "opt+f1",
-        "when": "extension.cargo-bin.active"
+        "mac": "opt+f1"
       }
     ]
   },
